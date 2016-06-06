@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		873C01761D0530E800C3AF0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C01751D0530E800C3AF0C /* AppDelegate.swift */; };
+		873C01781D0530E800C3AF0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C01771D0530E800C3AF0C /* ViewController.swift */; };
+		873C017B1D0530E800C3AF0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873C01791D0530E800C3AF0C /* Main.storyboard */; };
+		873C017E1D0530E800C3AF0C /* ChargeScape.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 873C017C1D0530E800C3AF0C /* ChargeScape.xcdatamodeld */; };
+		873C01801D0530E800C3AF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873C017F1D0530E800C3AF0C /* Assets.xcassets */; };
+		873C01831D0530E800C3AF0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873C01811D0530E800C3AF0C /* LaunchScreen.storyboard */; };
+		873C018E1D0530E800C3AF0C /* ChargeScapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C018D1D0530E800C3AF0C /* ChargeScapeTests.swift */; };
+		873C01991D0530E800C3AF0C /* ChargeScapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C01981D0530E800C3AF0C /* ChargeScapeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		873C018A1D0530E800C3AF0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 873C016A1D0530E800C3AF0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873C01711D0530E800C3AF0C;
+			remoteInfo = ChargeScape;
+		};
+		873C01951D0530E800C3AF0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 873C016A1D0530E800C3AF0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873C01711D0530E800C3AF0C;
+			remoteInfo = ChargeScape;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		873C01721D0530E800C3AF0C /* ChargeScape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChargeScape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		873C01751D0530E800C3AF0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		873C01771D0530E800C3AF0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		873C017A1D0530E800C3AF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		873C017D1D0530E800C3AF0C /* ChargeScape.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChargeScape.xcdatamodel; sourceTree = "<group>"; };
+		873C017F1D0530E800C3AF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		873C01821D0530E800C3AF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		873C01841D0530E800C3AF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873C01891D0530E800C3AF0C /* ChargeScapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargeScapeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		873C018D1D0530E800C3AF0C /* ChargeScapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeScapeTests.swift; sourceTree = "<group>"; };
+		873C018F1D0530E800C3AF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873C01941D0530E800C3AF0C /* ChargeScapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargeScapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		873C01981D0530E800C3AF0C /* ChargeScapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeScapeUITests.swift; sourceTree = "<group>"; };
+		873C019A1D0530E800C3AF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		873C016F1D0530E800C3AF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873C01861D0530E800C3AF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873C01911D0530E800C3AF0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		873C01691D0530E800C3AF0C = {
+			isa = PBXGroup;
+			children = (
+				873C01741D0530E800C3AF0C /* ChargeScape */,
+				873C018C1D0530E800C3AF0C /* ChargeScapeTests */,
+				873C01971D0530E800C3AF0C /* ChargeScapeUITests */,
+				873C01731D0530E800C3AF0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		873C01731D0530E800C3AF0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				873C01721D0530E800C3AF0C /* ChargeScape.app */,
+				873C01891D0530E800C3AF0C /* ChargeScapeTests.xctest */,
+				873C01941D0530E800C3AF0C /* ChargeScapeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		873C01741D0530E800C3AF0C /* ChargeScape */ = {
+			isa = PBXGroup;
+			children = (
+				873C01751D0530E800C3AF0C /* AppDelegate.swift */,
+				873C01771D0530E800C3AF0C /* ViewController.swift */,
+				873C01791D0530E800C3AF0C /* Main.storyboard */,
+				873C017F1D0530E800C3AF0C /* Assets.xcassets */,
+				873C01811D0530E800C3AF0C /* LaunchScreen.storyboard */,
+				873C01841D0530E800C3AF0C /* Info.plist */,
+				873C017C1D0530E800C3AF0C /* ChargeScape.xcdatamodeld */,
+			);
+			path = ChargeScape;
+			sourceTree = "<group>";
+		};
+		873C018C1D0530E800C3AF0C /* ChargeScapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				873C018D1D0530E800C3AF0C /* ChargeScapeTests.swift */,
+				873C018F1D0530E800C3AF0C /* Info.plist */,
+			);
+			path = ChargeScapeTests;
+			sourceTree = "<group>";
+		};
+		873C01971D0530E800C3AF0C /* ChargeScapeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				873C01981D0530E800C3AF0C /* ChargeScapeUITests.swift */,
+				873C019A1D0530E800C3AF0C /* Info.plist */,
+			);
+			path = ChargeScapeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		873C01711D0530E800C3AF0C /* ChargeScape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873C019D1D0530E800C3AF0C /* Build configuration list for PBXNativeTarget "ChargeScape" */;
+			buildPhases = (
+				873C016E1D0530E800C3AF0C /* Sources */,
+				873C016F1D0530E800C3AF0C /* Frameworks */,
+				873C01701D0530E800C3AF0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChargeScape;
+			productName = ChargeScape;
+			productReference = 873C01721D0530E800C3AF0C /* ChargeScape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		873C01881D0530E800C3AF0C /* ChargeScapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873C01A01D0530E800C3AF0C /* Build configuration list for PBXNativeTarget "ChargeScapeTests" */;
+			buildPhases = (
+				873C01851D0530E800C3AF0C /* Sources */,
+				873C01861D0530E800C3AF0C /* Frameworks */,
+				873C01871D0530E800C3AF0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				873C018B1D0530E800C3AF0C /* PBXTargetDependency */,
+			);
+			name = ChargeScapeTests;
+			productName = ChargeScapeTests;
+			productReference = 873C01891D0530E800C3AF0C /* ChargeScapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		873C01931D0530E800C3AF0C /* ChargeScapeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 873C01A31D0530E800C3AF0C /* Build configuration list for PBXNativeTarget "ChargeScapeUITests" */;
+			buildPhases = (
+				873C01901D0530E800C3AF0C /* Sources */,
+				873C01911D0530E800C3AF0C /* Frameworks */,
+				873C01921D0530E800C3AF0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				873C01961D0530E800C3AF0C /* PBXTargetDependency */,
+			);
+			name = ChargeScapeUITests;
+			productName = ChargeScapeUITests;
+			productReference = 873C01941D0530E800C3AF0C /* ChargeScapeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		873C016A1D0530E800C3AF0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jeremy Bannister";
+				TargetAttributes = {
+					873C01711D0530E800C3AF0C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					873C01881D0530E800C3AF0C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 873C01711D0530E800C3AF0C;
+					};
+					873C01931D0530E800C3AF0C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 873C01711D0530E800C3AF0C;
+					};
+				};
+			};
+			buildConfigurationList = 873C016D1D0530E800C3AF0C /* Build configuration list for PBXProject "ChargeScape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 873C01691D0530E800C3AF0C;
+			productRefGroup = 873C01731D0530E800C3AF0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				873C01711D0530E800C3AF0C /* ChargeScape */,
+				873C01881D0530E800C3AF0C /* ChargeScapeTests */,
+				873C01931D0530E800C3AF0C /* ChargeScapeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		873C01701D0530E800C3AF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873C01831D0530E800C3AF0C /* LaunchScreen.storyboard in Resources */,
+				873C01801D0530E800C3AF0C /* Assets.xcassets in Resources */,
+				873C017B1D0530E800C3AF0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873C01871D0530E800C3AF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873C01921D0530E800C3AF0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		873C016E1D0530E800C3AF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873C01781D0530E800C3AF0C /* ViewController.swift in Sources */,
+				873C01761D0530E800C3AF0C /* AppDelegate.swift in Sources */,
+				873C017E1D0530E800C3AF0C /* ChargeScape.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873C01851D0530E800C3AF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873C018E1D0530E800C3AF0C /* ChargeScapeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873C01901D0530E800C3AF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873C01991D0530E800C3AF0C /* ChargeScapeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		873C018B1D0530E800C3AF0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 873C01711D0530E800C3AF0C /* ChargeScape */;
+			targetProxy = 873C018A1D0530E800C3AF0C /* PBXContainerItemProxy */;
+		};
+		873C01961D0530E800C3AF0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 873C01711D0530E800C3AF0C /* ChargeScape */;
+			targetProxy = 873C01951D0530E800C3AF0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		873C01791D0530E800C3AF0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873C017A1D0530E800C3AF0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		873C01811D0530E800C3AF0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				873C01821D0530E800C3AF0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		873C019B1D0530E800C3AF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		873C019C1D0530E800C3AF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		873C019E1D0530E800C3AF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChargeScape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JAB.ChargeScape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		873C019F1D0530E800C3AF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChargeScape/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JAB.ChargeScape;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		873C01A11D0530E800C3AF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChargeScapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JAB.ChargeScapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChargeScape.app/ChargeScape";
+			};
+			name = Debug;
+		};
+		873C01A21D0530E800C3AF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChargeScapeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JAB.ChargeScapeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChargeScape.app/ChargeScape";
+			};
+			name = Release;
+		};
+		873C01A41D0530E800C3AF0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChargeScapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JAB.ChargeScapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChargeScape;
+			};
+			name = Debug;
+		};
+		873C01A51D0530E800C3AF0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChargeScapeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JAB.ChargeScapeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ChargeScape;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		873C016D1D0530E800C3AF0C /* Build configuration list for PBXProject "ChargeScape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873C019B1D0530E800C3AF0C /* Debug */,
+				873C019C1D0530E800C3AF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		873C019D1D0530E800C3AF0C /* Build configuration list for PBXNativeTarget "ChargeScape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873C019E1D0530E800C3AF0C /* Debug */,
+				873C019F1D0530E800C3AF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		873C01A01D0530E800C3AF0C /* Build configuration list for PBXNativeTarget "ChargeScapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873C01A11D0530E800C3AF0C /* Debug */,
+				873C01A21D0530E800C3AF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		873C01A31D0530E800C3AF0C /* Build configuration list for PBXNativeTarget "ChargeScapeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				873C01A41D0530E800C3AF0C /* Debug */,
+				873C01A51D0530E800C3AF0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		873C017C1D0530E800C3AF0C /* ChargeScape.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				873C017D1D0530E800C3AF0C /* ChargeScape.xcdatamodel */,
+			);
+			currentVersion = 873C017D1D0530E800C3AF0C /* ChargeScape.xcdatamodel */;
+			path = ChargeScape.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 873C016A1D0530E800C3AF0C /* Project object */;
+}
