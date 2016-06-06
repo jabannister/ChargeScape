@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15D17CA97EE70EF4DD2DEDAE /* Pods_ChargeScapeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2584B033597114EA8D41892B /* Pods_ChargeScapeUITests.framework */; };
 		873C01761D0530E800C3AF0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C01751D0530E800C3AF0C /* AppDelegate.swift */; };
 		873C01781D0530E800C3AF0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C01771D0530E800C3AF0C /* ViewController.swift */; };
 		873C017B1D0530E800C3AF0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873C01791D0530E800C3AF0C /* Main.storyboard */; };
@@ -15,6 +16,21 @@
 		873C01831D0530E800C3AF0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873C01811D0530E800C3AF0C /* LaunchScreen.storyboard */; };
 		873C018E1D0530E800C3AF0C /* ChargeScapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C018D1D0530E800C3AF0C /* ChargeScapeTests.swift */; };
 		873C01991D0530E800C3AF0C /* ChargeScapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C01981D0530E800C3AF0C /* ChargeScapeUITests.swift */; };
+		873C01A91D0531B600C3AF0C /* ApplicationRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C01A81D0531B600C3AF0C /* ApplicationRoot.swift */; };
+		873C01AC1D0531DE00C3AF0C /* BallCountControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C01AB1D0531DE00C3AF0C /* BallCountControl.swift */; };
+		873C01AE1D0531F400C3AF0C /* ControlPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C01AD1D0531F400C3AF0C /* ControlPanel.swift */; };
+		873C01B01D05320600C3AF0C /* JugglingField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C01AF1D05320600C3AF0C /* JugglingField.swift */; };
+		873C01B21D05320F00C3AF0C /* ChargedBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873C01B11D05320F00C3AF0C /* ChargedBall.swift */; };
+		873C01BF1D0533B400C3AF0C /* iOS 7 Down Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 873C01BB1D0533B400C3AF0C /* iOS 7 Down Arrow.png */; };
+		873C01C01D0533B400C3AF0C /* iOS 7 Left Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 873C01BC1D0533B400C3AF0C /* iOS 7 Left Arrow.png */; };
+		873C01C11D0533B400C3AF0C /* iOS 7 Right Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 873C01BD1D0533B400C3AF0C /* iOS 7 Right Arrow.png */; };
+		873C01C21D0533B400C3AF0C /* iOS 7 Up Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 873C01BE1D0533B400C3AF0C /* iOS 7 Up Arrow.png */; };
+		873C01C71D0533DF00C3AF0C /* Negative Charge Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 873C01C41D0533DF00C3AF0C /* Negative Charge Icon.png */; };
+		873C01C81D0533DF00C3AF0C /* Neutral Charge Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 873C01C51D0533DF00C3AF0C /* Neutral Charge Icon.png */; };
+		873C01C91D0533DF00C3AF0C /* Positive Charge Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 873C01C61D0533DF00C3AF0C /* Positive Charge Icon.png */; };
+		87F06C6A1D05D0ED0090001A /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F06C691D05D0ED0090001A /* UIDeviceExtension.swift */; };
+		9046AB4C8CED97D5FBB77C21 /* Pods_ChargeScapeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A0BD02CE49E9E179AB79B3 /* Pods_ChargeScapeTests.framework */; };
+		DBBEAE304C8B03C3EA47C9AC /* Pods_ChargeScape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164CAB805677431D0129A75 /* Pods_ChargeScape.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2584B033597114EA8D41892B /* Pods_ChargeScapeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChargeScapeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A9F3386E97389E4566AA7C /* Pods-ChargeScape.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChargeScape.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChargeScape/Pods-ChargeScape.debug.xcconfig"; sourceTree = "<group>"; };
+		3B196EB41A6E0612036F05B3 /* Pods-ChargeScapeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChargeScapeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChargeScapeTests/Pods-ChargeScapeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BE5D18927EA6BEBE0B76339 /* Pods-ChargeScapeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChargeScapeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChargeScapeTests/Pods-ChargeScapeTests.release.xcconfig"; sourceTree = "<group>"; };
+		4164CAB805677431D0129A75 /* Pods_ChargeScape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChargeScape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873C01721D0530E800C3AF0C /* ChargeScape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChargeScape.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		873C01751D0530E800C3AF0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		873C01771D0530E800C3AF0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +70,23 @@
 		873C01941D0530E800C3AF0C /* ChargeScapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargeScapeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		873C01981D0530E800C3AF0C /* ChargeScapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeScapeUITests.swift; sourceTree = "<group>"; };
 		873C019A1D0530E800C3AF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		873C01A81D0531B600C3AF0C /* ApplicationRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationRoot.swift; sourceTree = "<group>"; };
+		873C01AB1D0531DE00C3AF0C /* BallCountControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallCountControl.swift; sourceTree = "<group>"; };
+		873C01AD1D0531F400C3AF0C /* ControlPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlPanel.swift; sourceTree = "<group>"; };
+		873C01AF1D05320600C3AF0C /* JugglingField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JugglingField.swift; sourceTree = "<group>"; };
+		873C01B11D05320F00C3AF0C /* ChargedBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargedBall.swift; sourceTree = "<group>"; };
+		873C01BB1D0533B400C3AF0C /* iOS 7 Down Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS 7 Down Arrow.png"; sourceTree = "<group>"; };
+		873C01BC1D0533B400C3AF0C /* iOS 7 Left Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS 7 Left Arrow.png"; sourceTree = "<group>"; };
+		873C01BD1D0533B400C3AF0C /* iOS 7 Right Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS 7 Right Arrow.png"; sourceTree = "<group>"; };
+		873C01BE1D0533B400C3AF0C /* iOS 7 Up Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS 7 Up Arrow.png"; sourceTree = "<group>"; };
+		873C01C41D0533DF00C3AF0C /* Negative Charge Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Negative Charge Icon.png"; sourceTree = "<group>"; };
+		873C01C51D0533DF00C3AF0C /* Neutral Charge Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Neutral Charge Icon.png"; sourceTree = "<group>"; };
+		873C01C61D0533DF00C3AF0C /* Positive Charge Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Positive Charge Icon.png"; sourceTree = "<group>"; };
+		87F06C691D05D0ED0090001A /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		A2A0BD02CE49E9E179AB79B3 /* Pods_ChargeScapeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChargeScapeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3891525DAF58C68AA68B59 /* Pods-ChargeScapeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChargeScapeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChargeScapeUITests/Pods-ChargeScapeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D1A8C226B4A4401AE9568DD2 /* Pods-ChargeScape.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChargeScape.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChargeScape/Pods-ChargeScape.release.xcconfig"; sourceTree = "<group>"; };
+		ECD169BD1E7B726D5AC524F0 /* Pods-ChargeScapeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChargeScapeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChargeScapeUITests/Pods-ChargeScapeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBEAE304C8B03C3EA47C9AC /* Pods_ChargeScape.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9046AB4C8CED97D5FBB77C21 /* Pods_ChargeScapeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +110,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D17CA97EE70EF4DD2DEDAE /* Pods_ChargeScapeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50D55D2E9653C0BAED73E641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4164CAB805677431D0129A75 /* Pods_ChargeScape.framework */,
+				A2A0BD02CE49E9E179AB79B3 /* Pods_ChargeScapeTests.framework */,
+				2584B033597114EA8D41892B /* Pods_ChargeScapeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		873C01691D0530E800C3AF0C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +134,8 @@
 				873C018C1D0530E800C3AF0C /* ChargeScapeTests */,
 				873C01971D0530E800C3AF0C /* ChargeScapeUITests */,
 				873C01731D0530E800C3AF0C /* Products */,
+				AD25B626A918A010EA54CE71 /* Pods */,
+				50D55D2E9653C0BAED73E641 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +152,10 @@
 		873C01741D0530E800C3AF0C /* ChargeScape */ = {
 			isa = PBXGroup;
 			children = (
-				873C01751D0530E800C3AF0C /* AppDelegate.swift */,
-				873C01771D0530E800C3AF0C /* ViewController.swift */,
-				873C01791D0530E800C3AF0C /* Main.storyboard */,
-				873C017F1D0530E800C3AF0C /* Assets.xcassets */,
-				873C01811D0530E800C3AF0C /* LaunchScreen.storyboard */,
-				873C01841D0530E800C3AF0C /* Info.plist */,
-				873C017C1D0530E800C3AF0C /* ChargeScape.xcdatamodeld */,
+				873C01A61D05311F00C3AF0C /* Default */,
+				87F06C6B1D05D0FD0090001A /* Extensions */,
+				873C01AA1D0531BA00C3AF0C /* Application Root */,
+				873C01BA1D05338A00C3AF0C /* Supporting Files */,
 			);
 			path = ChargeScape;
 			sourceTree = "<group>";
@@ -128,6 +178,163 @@
 			path = ChargeScapeUITests;
 			sourceTree = "<group>";
 		};
+		873C01A61D05311F00C3AF0C /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				873C01751D0530E800C3AF0C /* AppDelegate.swift */,
+				873C01771D0530E800C3AF0C /* ViewController.swift */,
+				873C01A71D05312E00C3AF0C /* Other */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		873C01A71D05312E00C3AF0C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				873C01791D0530E800C3AF0C /* Main.storyboard */,
+				873C017F1D0530E800C3AF0C /* Assets.xcassets */,
+				873C01811D0530E800C3AF0C /* LaunchScreen.storyboard */,
+				873C017C1D0530E800C3AF0C /* ChargeScape.xcdatamodeld */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		873C01AA1D0531BA00C3AF0C /* Application Root */ = {
+			isa = PBXGroup;
+			children = (
+				873C01A81D0531B600C3AF0C /* ApplicationRoot.swift */,
+				873C01B91D05325800C3AF0C /* Components */,
+			);
+			name = "Application Root";
+			sourceTree = "<group>";
+		};
+		873C01B31D05321700C3AF0C /* Charged Ball */ = {
+			isa = PBXGroup;
+			children = (
+				873C01B11D05320F00C3AF0C /* ChargedBall.swift */,
+			);
+			name = "Charged Ball";
+			sourceTree = "<group>";
+		};
+		873C01B41D05321C00C3AF0C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				873C01B31D05321700C3AF0C /* Charged Ball */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		873C01B51D05322500C3AF0C /* Juggling Field */ = {
+			isa = PBXGroup;
+			children = (
+				873C01AF1D05320600C3AF0C /* JugglingField.swift */,
+				873C01B41D05321C00C3AF0C /* Components */,
+			);
+			name = "Juggling Field";
+			sourceTree = "<group>";
+		};
+		873C01B61D05322E00C3AF0C /* Ball Count Control */ = {
+			isa = PBXGroup;
+			children = (
+				873C01AB1D0531DE00C3AF0C /* BallCountControl.swift */,
+			);
+			name = "Ball Count Control";
+			sourceTree = "<group>";
+		};
+		873C01B71D05323800C3AF0C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				873C01B61D05322E00C3AF0C /* Ball Count Control */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		873C01B81D05324400C3AF0C /* Control Panel */ = {
+			isa = PBXGroup;
+			children = (
+				873C01AD1D0531F400C3AF0C /* ControlPanel.swift */,
+				873C01B71D05323800C3AF0C /* Components */,
+			);
+			name = "Control Panel";
+			sourceTree = "<group>";
+		};
+		873C01B91D05325800C3AF0C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				873C01B81D05324400C3AF0C /* Control Panel */,
+				873C01B51D05322500C3AF0C /* Juggling Field */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		873C01BA1D05338A00C3AF0C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				873C01841D0530E800C3AF0C /* Info.plist */,
+				873C01CD1D05340500C3AF0C /* Resources */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		873C01C31D0533BA00C3AF0C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				873C01BB1D0533B400C3AF0C /* iOS 7 Down Arrow.png */,
+				873C01BC1D0533B400C3AF0C /* iOS 7 Left Arrow.png */,
+				873C01BD1D0533B400C3AF0C /* iOS 7 Right Arrow.png */,
+				873C01BE1D0533B400C3AF0C /* iOS 7 Up Arrow.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		873C01CA1D0533E900C3AF0C /* General */ = {
+			isa = PBXGroup;
+			children = (
+				873C01C41D0533DF00C3AF0C /* Negative Charge Icon.png */,
+				873C01C51D0533DF00C3AF0C /* Neutral Charge Icon.png */,
+				873C01C61D0533DF00C3AF0C /* Positive Charge Icon.png */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		873C01CB1D0533F400C3AF0C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				873C01C31D0533BA00C3AF0C /* Buttons */,
+				873C01CA1D0533E900C3AF0C /* General */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		873C01CD1D05340500C3AF0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				873C01CB1D0533F400C3AF0C /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		87F06C6B1D05D0FD0090001A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				87F06C691D05D0ED0090001A /* UIDeviceExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		AD25B626A918A010EA54CE71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33A9F3386E97389E4566AA7C /* Pods-ChargeScape.debug.xcconfig */,
+				D1A8C226B4A4401AE9568DD2 /* Pods-ChargeScape.release.xcconfig */,
+				3B196EB41A6E0612036F05B3 /* Pods-ChargeScapeTests.debug.xcconfig */,
+				3BE5D18927EA6BEBE0B76339 /* Pods-ChargeScapeTests.release.xcconfig */,
+				CE3891525DAF58C68AA68B59 /* Pods-ChargeScapeUITests.debug.xcconfig */,
+				ECD169BD1E7B726D5AC524F0 /* Pods-ChargeScapeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +342,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 873C019D1D0530E800C3AF0C /* Build configuration list for PBXNativeTarget "ChargeScape" */;
 			buildPhases = (
+				C8B024A50100CD3040F379C0 /* 📦 Check Pods Manifest.lock */,
 				873C016E1D0530E800C3AF0C /* Sources */,
 				873C016F1D0530E800C3AF0C /* Frameworks */,
 				873C01701D0530E800C3AF0C /* Resources */,
+				0A921DE765B1379C893E80C8 /* 📦 Embed Pods Frameworks */,
+				9C5F94AFAB696C8FD0D389AB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 873C01A01D0530E800C3AF0C /* Build configuration list for PBXNativeTarget "ChargeScapeTests" */;
 			buildPhases = (
+				A36B4D81F50911D9582C2922 /* 📦 Check Pods Manifest.lock */,
 				873C01851D0530E800C3AF0C /* Sources */,
 				873C01861D0530E800C3AF0C /* Frameworks */,
 				873C01871D0530E800C3AF0C /* Resources */,
+				9D8A5284DB23F315ED46C8A7 /* 📦 Embed Pods Frameworks */,
+				4F0AEC759FDE406E9C6FB21A /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +383,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 873C01A31D0530E800C3AF0C /* Build configuration list for PBXNativeTarget "ChargeScapeUITests" */;
 			buildPhases = (
+				473EB0045F62ACD1EAB8A2DE /* 📦 Check Pods Manifest.lock */,
 				873C01901D0530E800C3AF0C /* Sources */,
 				873C01911D0530E800C3AF0C /* Frameworks */,
 				873C01921D0530E800C3AF0C /* Resources */,
+				97C4780710064D403577AE4C /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +411,7 @@
 				TargetAttributes = {
 					873C01711D0530E800C3AF0C = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H5N9FLA33R;
 					};
 					873C01881D0530E800C3AF0C = {
 						CreatedOnToolsVersion = 7.3;
@@ -232,9 +448,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873C01C21D0533B400C3AF0C /* iOS 7 Up Arrow.png in Resources */,
+				873C01C71D0533DF00C3AF0C /* Negative Charge Icon.png in Resources */,
+				873C01BF1D0533B400C3AF0C /* iOS 7 Down Arrow.png in Resources */,
+				873C01C11D0533B400C3AF0C /* iOS 7 Right Arrow.png in Resources */,
+				873C01C01D0533B400C3AF0C /* iOS 7 Left Arrow.png in Resources */,
+				873C01C91D0533DF00C3AF0C /* Positive Charge Icon.png in Resources */,
 				873C01831D0530E800C3AF0C /* LaunchScreen.storyboard in Resources */,
 				873C01801D0530E800C3AF0C /* Assets.xcassets in Resources */,
 				873C017B1D0530E800C3AF0C /* Main.storyboard in Resources */,
+				873C01C81D0533DF00C3AF0C /* Neutral Charge Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +477,142 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A921DE765B1379C893E80C8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargeScape/Pods-ChargeScape-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		473EB0045F62ACD1EAB8A2DE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F0AEC759FDE406E9C6FB21A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargeScapeTests/Pods-ChargeScapeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C4780710064D403577AE4C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargeScapeUITests/Pods-ChargeScapeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C5F94AFAB696C8FD0D389AB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargeScape/Pods-ChargeScape-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D8A5284DB23F315ED46C8A7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChargeScapeTests/Pods-ChargeScapeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A36B4D81F50911D9582C2922 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8B024A50100CD3040F379C0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		873C016E1D0530E800C3AF0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873C01AE1D0531F400C3AF0C /* ControlPanel.swift in Sources */,
+				873C01A91D0531B600C3AF0C /* ApplicationRoot.swift in Sources */,
 				873C01781D0530E800C3AF0C /* ViewController.swift in Sources */,
+				87F06C6A1D05D0ED0090001A /* UIDeviceExtension.swift in Sources */,
 				873C01761D0530E800C3AF0C /* AppDelegate.swift in Sources */,
+				873C01B01D05320600C3AF0C /* JugglingField.swift in Sources */,
+				873C01B21D05320F00C3AF0C /* ChargedBall.swift in Sources */,
+				873C01AC1D0531DE00C3AF0C /* BallCountControl.swift in Sources */,
 				873C017E1D0530E800C3AF0C /* ChargeScape.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,28 +755,37 @@
 		};
 		873C019E1D0530E800C3AF0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A9F3386E97389E4566AA7C /* Pods-ChargeScape.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ChargeScape/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JAB.ChargeScape;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		873C019F1D0530E800C3AF0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A8C226B4A4401AE9568DD2 /* Pods-ChargeScape.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ChargeScape/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JAB.ChargeScape;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		873C01A11D0530E800C3AF0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B196EB41A6E0612036F05B3 /* Pods-ChargeScapeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ChargeScapeTests/Info.plist;
@@ -437,6 +798,7 @@
 		};
 		873C01A21D0530E800C3AF0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE5D18927EA6BEBE0B76339 /* Pods-ChargeScapeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ChargeScapeTests/Info.plist;
@@ -449,6 +811,7 @@
 		};
 		873C01A41D0530E800C3AF0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3891525DAF58C68AA68B59 /* Pods-ChargeScapeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ChargeScapeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -460,6 +823,7 @@
 		};
 		873C01A51D0530E800C3AF0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD169BD1E7B726D5AC524F0 /* Pods-ChargeScapeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ChargeScapeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -488,6 +852,7 @@
 				873C019F1D0530E800C3AF0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		873C01A01D0530E800C3AF0C /* Build configuration list for PBXNativeTarget "ChargeScapeTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +861,7 @@
 				873C01A21D0530E800C3AF0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		873C01A31D0530E800C3AF0C /* Build configuration list for PBXNativeTarget "ChargeScapeUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +870,7 @@
 				873C01A51D0530E800C3AF0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
